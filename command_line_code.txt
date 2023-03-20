@@ -1,0 +1,180 @@
+
+
+
+(base) learn@learn-VirtualBox:~/Code$ ls
+git-tutorial
+(base) learn@learn-VirtualBox:~/Code$ git rm git-tutorial/
+fatal: not a git repository (or any of the parent directories): .git
+(base) learn@learn-VirtualBox:~/Code$ rm git-tutorial/
+rm: cannot remove 'git-tutorial/': Is a directory
+(base) learn@learn-VirtualBox:~/Code$ Touch README
+Command 'Touch' not found, did you mean:
+  command 'touch' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>
+(base) learn@learn-VirtualBox:~/Code$ touch README
+(base) learn@learn-VirtualBox:~/Code$ git init README
+fatal: cannot mkdir README: File exists
+(base) learn@learn-VirtualBox:~/Code$ ls
+git-tutorial  README
+(base) learn@learn-VirtualBox:~/Code$ echo " this is some code" > README 
+(base) learn@learn-VirtualBox:~/Code$ git commit -a -m README
+fatal: not a git repository (or any of the parent directories): .git
+(base) learn@learn-VirtualBox:~/Code$ git log
+fatal: not a git repository (or any of the parent directories): .git
+(base) learn@learn-VirtualBox:~/Code$ git config --global user.name "notabiologist"
+(base) learn@learn-VirtualBox:~/Code$ git config --global user.email "dephan1212@gmail.com
+> "
+(base) learn@learn-VirtualBox:~/Code$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/learn/Code/.git/
+(base) learn@learn-VirtualBox:~/Code$ touch README
+(base) learn@learn-VirtualBox:~/Code$ git add README
+(base) learn@learn-VirtualBox:~/Code$ git status
+On branch master
+
+ learn@learn-VirtualBox:~/Code$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/learn/.ssh/id_rsa): 
+/home/learn/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/learn/.ssh/id_rsa
+Your public key has been saved in /home/learn/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:K1sMb3Aedh7GociMWdd8QbTIm5rRkstA0E5RW2HoeGo learn@learn-VirtualBox
+The key's randomart image is:
++---[RSA 3072]----+
+|    ...o..+++    |
+|     .o .B . o   |
+|     oooo * o    |
+|     Booo= =     |
+|    o BoS O      |
+|      E@ % .     |
+|     .. % .      |
+|       =         |
+|      .          |
++----[SHA256]-----+
+(base) learn@learn-VirtualBox:~/Code$ ls ~/.ssh
+id_rsa  id_rsa.pub  known_hosts  known_hosts.old
+(base) learn@learn-VirtualBox:~/Code$ cat  ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDkS2hBvX/26EaHJjat7QjSz4duIXG7Zw5pROf7a5UxMaaWCWz5uZKTE+7+Mrc+XGKjTFmKxf4uvetfw9VtJe4crQyfLNqlK5577aSKcpoCy4XLNVyWDok9RyFJsEFVazS17Ktz6lLUv1jXyUXCggmqYcIO0+rsQqPY30BeY5S5vQiYlk72c26eRHEijoPkYpy7eNmTWAB3X+ZxDVTKW3CcX0kxoSSTERCeqCuWQ8/DmurKvm3+S8Xd8RnYxbGoG4a0nOsTYrSt0tOEpyoLH+lbg3Jmcm8dDe5IkRd66doAjW31TNFYoi06BQkio7h+MwATnpqYW/8FNCqbrRGbhbOmjNyz6/fvRgDsuxgigV750iUK18voodurbWB4Nf+UWb1Nh/pXtutiuoqRv33gbIA0Tc3LsyrlR1zliDsFvWnHqLv5KOSNNFmM8ZRiQltZqWClK7V9pfcGQ35qsZwEiAtZSNDz59H4K3M6K0UdGfeUC1WHgh3DpjylwAqPUosF9SU= learn@learn-VirtualBox
+(base) learn@learn-VirtualBox:~/Code$ git branch -M main
+(base) learn@learn-VirtualBox:~/Code$ git push -u origin main
+Username for 'https://github.com': notabiologist
+Password for 'https://notabiologist@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/notabiologist/Learn_R.git/'
+(base) learn@learn-VirtualBox:~/Code$ git clone git@github.com:notabiologist/Learn_R.git
+Cloning into 'Learn_R'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+(base) learn@learn-VirtualBox:~/Code$ touch examplescript.sh
+(base) learn@learn-VirtualBox:~/Code$ nano examplescript.sh 
+(base) learn@learn-VirtualBox:~/Code$ git commit -a -m "first commit"
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Learn_R/
+	README.md
+	examplescript.sh
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) learn@learn-VirtualBox:~/Code$ git push origin main
+Username for 'https://github.com': notabiologist
+Password for 'https://notabiologist@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/notabiologist/Learn_R.git/'
+(base) learn@learn-VirtualBox:~/Code$ ls
+examplescript.sh  Learn_R  README  README.md
+(base) learn@learn-VirtualBox:~/Code$ git cd Learn_R/
+git: 'cd' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+(base) learn@learn-VirtualBox:~/Code$ cd Learn_R/
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ ls
+README.md
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ ls -a
+.  ..  .git  README.md
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ touch index.html
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ git add index.html 
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   index.html
+
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ git commit -m -a "new file made"
+error: pathspec 'new file made' did not match any file(s) known to git
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ git commit -m "added index.html"
+[main b69f30c] added index.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ ssh-keygen -t rsa -b 4096 -C "dephan1212@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/learn/.ssh/id_rsa): 
+/home/learn/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/learn/.ssh/id_rsa
+Your public key has been saved in /home/learn/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:3MUVDHtKpLidXRELF78fnR2Nfz+CyQXkwHxbwQYDUHs dephan1212@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|       .=+.+*+O+ |
+|         +==.O.=.|
+|        ..oEO =.o|
+|       . +.*.+ .*|
+|        S + o. +=|
+|          . +   =|
+|           + . .o|
+|              . .|
+|                 |
++----[SHA256]-----+
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ ls -a
+.  ..  .git  index.html  README.md
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ cat .ssh/id_rsa.pub
+cat: .ssh/id_rsa.pub: No such file or directory
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ ls ~/.ssh
+id_rsa  id_rsa.pub  known_hosts  known_hosts.old
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ cat  ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDTRBmgNEy2Fbp6NKAILKXC7pTj5hURSCrZKDgYd6OV5EqBYngTaWoZLztP4wef7Lk3zFH5MEyinYqoVhbvGGy0Qnjqg5o9kRwF5BzysF+sRqGJwpP/lm1fhhecVfSb/Zvw9u0ntezbZNp0eVRJTBLTL6gHTWSqQoAxUvlPCp4Vz0PsZLhn5Mm6eXCgXyo13kUFwMJ0DdJqAg0HUH2zmfBWkmUNLbM84i5HswnNLpFlpbeAhzwQSMZ6OWvJfkseH82djPCw06kzO5NuVH0iQIdLojy6sf/CMJK9b67UWz6VFtCXi4TdODCqlkF5Na5VRQrL4rw5VQIODaTu2q1gYQIxWlzU7sK0zo7EUzO3Ky9w4WqTkpU35uzXx5HjMkbugfExEo6ivr4yX0Buf/tw+RqtUTNupSaB+4mYEdYSs1KsAq8smDS0rUoHudOghCrG8llcjJA/Ey6sPkvpVhb5w2oOUOP1571AVWWiXuf4IHcOAcVn7qtBXYncoHEYItM3+4tStDTB6/QUG3Qle+E2ao3cSBwOtOJFl+rZQEQWf6cTP+MuVJwmX9yuCx1Ux/YPFCuTQysg1F07EKAWj/3IhuK+qyN79yE0ZWBrA7CcZaM232EbKTeaQr6pJqFj+oHGfQXJI2ilajY+6HbMbnpDQwhYfnzDdTuanmAJWDdPcwcV1w== dephan1212@gmail.com
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ eval "(ssh-agent -s)'
+> '
+> ^C
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ eval "(ssh-agent -s)"
+SSH_AUTH_SOCK=/tmp/ssh-XXXXXXrbNMcj/agent.3021; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=3022; export SSH_AGENT_PID;
+echo Agent pid 3022;
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ ssh-add ~/.ssh/id_rsa
+Enter passphrase for /home/learn/.ssh/id_rsa: 
+Identity added: /home/learn/.ssh/id_rsa (dephan1212@gmail.com)
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 280 bytes | 56.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:notabiologist/Learn_R.git
+   9070aa8..b69f30c  main -> main
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ nano command_line_code
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ 
+
