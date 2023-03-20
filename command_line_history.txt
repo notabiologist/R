@@ -1,0 +1,1001 @@
+cd ~
+  368  cd Share/week2
+  369  ls
+  370  cat test.sh
+  371  ./test.sh
+  372  nano test_variables.sh 
+  373  ./test_variables.sh 
+  374  cat test_variables.sh 
+  375  ls -l -h
+  376  chmod g+x test_variables.sh 
+  377  ./test_variables.sh 
+  378  nano test_variables.sh 
+  379  ./test_variables.sh 
+  380  cat test_variables.sh 
+  381  echo ${HOME}
+  382  echo${PWD}
+  383  echo ${PWD}
+  384  pwd
+  385  cd ../
+  386  echo ${PWD}
+  387  cd week2
+  388  echo ${PATH}
+  389  ls
+  390  which ls
+  391  PATH=${PWD}:${PATH}
+  392  echo=${PATH}
+  393  echo ${PATH}
+  394  test_variables.sh 
+  395  exist
+  396  exit
+  397  printenv
+  398  echo ${USER}
+  399  cd Share/week2
+  400  ls
+  401  cp test_variables.sh test_arguments.sh
+  402  nano test_arguments.sh 
+  403  chmod u+x test_arguments.sh 
+  404  ./test_arguments.sh arg1
+  405  cat test_arguments.sh 
+  406  nano test_arguments.sh 
+  407  cat test_arguments.sh 
+  408  ./test_arguments.sh arg1
+  409  nano test_arguments.sh 
+  410  cat test_arguments.sh 
+  411  ./test_arguments.sh 'disco chick' 5
+  412  ./test_arguments.sh 'disco chick' 2
+  413  ./test_arguments.sh 'disco chick' 1
+  414  exit
+  415  pwd
+  416  ls
+  417  cd Share
+  418  ls
+  419  cd week2
+  420  ls
+  421  exit
+  422  cd Share/week2
+  423  ls
+  424  nano test_variables.sh 
+  425  cat test_variables.sh 
+  426  nano test_arguments.sh 
+  427  man echo
+  428  echo test.sh 
+  429  cp test_arguments.sh ../week3/test_loops.sh
+  430  cd ../week3
+  431  cat test_loops.sh 
+  432  nano test_loops.sh 
+  433  ls
+  434  ls -lh
+  435  groups
+  436  chmod g+x test_loops.sh 
+  437  chmod u+x test_loops.sh 
+  438  ./test_loops.sh 
+  439  nano test_loops.sh 
+  440  ./test_loops.sh 
+  441  cat test_loops.sh 
+  442  ./test_loops.sh 
+  443  nano uniport_ids.txt
+  444  ls
+  445  cp test_loops.sh  get_uniport_data.sh
+  446  cat get_uniport_data.sh 
+  447  nano get_uniport_data.sh 
+  448  ./ get_uniport_data.sh 
+  449  ./get_uniport_data.sh 
+  450  nano get_uniport_data.sh 
+  451  ./get_uniport_data.sh 
+  452  ls
+  453  nano get_uniport_data.sh
+  454  ./get_uniport_data.sh 
+  455  cat get_uniport_data.sh 
+  456  nano get_uniport_data.sh 
+  457  ./get_uniport_data.sh 
+  458  nano get_uniport_data.sh 
+  459  ./get_uniport_data.sh 
+  460  nano get_uniport_data.sh 
+  461  ./get_uniport_data.sh 
+  462  nano get_uniport_data.sh 
+  463  ./get_uniport_data.sh 
+  464  nano get_uniport_data.sh 
+  465  l
+  466  ./get_uniport_data.sh 
+  467  ls
+  468  ls -1 *.fasta | wc -l
+  469  exist
+  470  exit
+  471  cd Share/week2
+  472  ls
+  473  cd ../week3
+  474  ls
+  475  nano test_loops.sh 
+  476  ./test_loops.sh 
+  477  cat test_loops.sh 
+  478  cat get_uniport_data.sh 
+  479  nano get_uniport_data.sh 
+  480  cat uniport_ids.txt 
+  481  ./test_loops.sh 
+  482  cat tes
+  483  cat test_loops.sh 
+  484  ls
+  485  nano get_uniport_data.sh 
+  486  cd //
+  487  cd Share/
+  488  ~
+  489  pwd
+  490  cd home
+  491  cd
+  492  cd Share/
+  493  ls
+  494  tree
+  495  cd
+  496  pwd
+  497  wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-Linux-x86_64.sh
+  498  ls
+  499  sha256sum Miniconda3-py39_4.12.0-Linux-x86_64.sh 
+  500  bash Miniconda3-py39_4.12.0-Linux-x86_64.sh 
+  501  ls Share
+  502  df -h
+  503  rm -r Share/miniconda3/
+  504  ls
+  505  bash Miniconda3-py39_4.12.0-Linux-x86_64.sh 
+  506  ls
+  507  pwd
+  508  rm -r home/miniconda3
+  509  rm -r learn/miniconda3
+  510  ls
+  511  rm miniconda3
+  512  rmdir miniconda3
+  513  rm -r miniconda3
+  514  ls
+  515  sha256sum 
+  516  sha512sum 
+  517  cd
+  518  pwd
+  519  ls
+  520  bash Miniconda3-py39_4.12.0-Linux-x86_64.sh 
+  521  df
+  522  df -h
+  523  ls
+  524  rm -r miniconda3
+  525  cd Share/
+  526  ls
+  527  bash Miniconda3-py39_4.12.0-Linux-x86_64.sh 
+  528  cd
+  529  ls
+  530  bash Miniconda3-py39_4.12.0-Linux-x86_64.sh 
+  531  df -h
+  532  rm -r miniconda3
+  533  ls
+  534  cd Share
+  535  rm -r miniconda3
+  536  ls
+  537  cd
+  538  ls
+  539  bash Miniconda3-py39_4.12.0-Linux-x86_64.sh
+  540  ls
+  541  cd Share/
+  542  ls
+  543  rm -r miniconda3
+  544  exit
+  545  sudo apt-get install gnome-disk-utility
+  546  apt-get install -y gparted
+  547  sudo su
+  548  exit
+  549  pwd
+  550  ls
+  551  cd home
+  552  cd
+  553  ls
+  554  sha256sum
+  555  sha256sum Miniconda3-py39_4.12.0-Linux-x86_64.sh 
+  556  bash Miniconda3-py39_4.12.0-Linux-x86_64.sh 
+  557  cd Share/
+  558  ls
+  559  rm -r miniconda3
+  560  ls
+  561  cd
+  562  bash Miniconda3-py39_4.12.0-Linux-x86_64.sh 
+  563  df -h
+  564  ls
+  565  ls -a
+  566  nano .bashrc
+  567  exit
+  568  echo ${PATH}
+  569  conda create -n msa python
+  570  conda activate msa
+  571  conda config -- add channels defaults
+  572  conda config --add channels defaults
+  573  conda config --add channels bioconda
+  574  conda config --add channels conda-forge
+  575  conda install muscle
+  576  conda activate msa
+  577  ls
+  578  jalview h
+  579  ls
+  580  jalview -clustal muscle_output.fasta 
+  581  conda activate msa
+  582  ls
+  583  cat muscle_input.fasta 
+  584  cat muscle_output.fasta 
+  585  cat muscle_input.fasta 
+  586  ls
+  587  cat get_uniport_data.sh 
+  588  jalview -open muscle_output.fasta 
+  589  cd
+  590  conda activate base
+  591  quit
+  592  conda activate msa
+  593  jalview -open muscle_input.fasta 
+  594  quit
+  595  conda create -n rna-seq
+  596  conda activate rna-seq
+  597  conda install sra-tools
+  598  fastq-dump
+  599  fastq-dump h
+  600  fastq-dump -h
+  601  cd Share
+  602  mkdir week4
+  603  ls
+  604  cd week4
+  605  ls
+  606  ls -lh
+  607  zless SRR11412215.fastq.gz 
+  608  ls -lh
+  609  ls 
+  610  ls -lh
+  611  conda activate rna_seq
+  612  conda activate rna-seq
+  613  cd Share
+  614  ls
+  615  fastq-dump -h
+  616  fastq-dump --gzip --defline-qual '+' SRR11412215
+  617  cd Share/week4
+  618  ls
+  619  cd ../Share
+  620  cd ..
+  621  ls
+  622  rm SRR11412215.fastq.gz 
+  623  ls
+  624  conda activate rna-seq
+  625  cd Share/
+  626  cd Share
+  627  ls
+  628  pwd
+  629  ..
+  630  cd ..
+  631  cd Share/
+  632  ls
+  633  fastq-dump -h
+  634  cd week4/
+  635  fastq-dump --gzip --defline-qual '+' SRR11412215
+  636  ls -lh
+  637  ls
+  638  cd Downloads
+  639  ls
+  640  mv SraRunTable.txt  Share/week4
+  641  mv SraRunTable.txt  Share
+  642  cd
+  643  cd Share
+  644  ls
+  645  mv
+  646  ls
+  647  ls week4
+  648  ls week2
+  649  ls week 1
+  650  ls week1
+  651  cd ..
+  652  ls
+  653  cd Downloads
+  654  ls
+  655  rm Share 
+  656  ls
+  657  mv man
+  658  man mv
+  659  ls
+  660  cd Share/week4
+  661  cd Share/ week4
+  662  cd Share
+  663  cd
+  664  ls
+  665  cd Share
+  666  ls
+  667  ls week4
+  668  cd week4
+  669  less SraRunTable.txt 
+  670  cut -d ',' -f SraRunTable.txt 
+  671  cut -d ',' -f 1 SraRunTable.txt 
+  672  tail -n+2 SraRunTable.txt | cut -d ',' -f 1
+  673  cp ../week3/get_uniport_data.sh ./get_sra_data.sh
+  674  ls
+  675  nano get_sra_data.sh 
+  676  ls
+  677  ls -lh
+  678  chmod u+x get_sra_data.sh 
+  679  ./get_sra_data.sh 
+  680  nano get_sra_data.sh 
+  681  ./get_sra_data.sh 
+  682  nano get_sra_data.sh 
+  683  ./get_sra_data.sh 
+  684  quit
+  685  ls
+  686  ls -lh
+  687  zless SRR11412215.fastq.gz 
+  688  cat SRR11412215.fastq.gz 
+  689  ls -lh
+  690  ls -l-h
+  691  ls -l -h
+  692  ls -lh
+  693  ls -l -h
+  694  ls -l-h
+  695  ls -lh
+  696  ../Share/week3
+  697  .. /Share/week3
+  698  ..
+  699  .. /Share
+  700  ../week3
+  701  `
+  702  ~
+  703  cd Share/week3
+  704  cd Home
+  705  ls -lh
+  706  ls
+  707  ls -lh
+  708  ls
+  709  ls -lh
+  710  cd ../
+  711  cd Share/week3
+  712  ls
+  713  cd week3
+  714  ls
+  715  less uniport_ids.txt 
+  716  nano devario_ids
+  717  LS
+  718  ls
+  719  nano get_uniport_data.sh 
+  720  nano devario_get_uniport_id
+  721  less uniport_ids.txt 
+  722  less
+  723  ls
+  724  ./devario_get_uniport_id 
+  725  nano devario_get_uniport_id 
+  726  ./devario_get_uniport_id 
+  727  ./ devario_get_uniport_id 
+  728  conda activate msa
+  729  ./ devario_get_uniport_id 
+  730  ./devario_get_uniport_id 
+  731  ls -lh
+  732  cd Share/week4
+  733  ls
+  734  conda activate rna-seq
+  735  ls
+  736  ls -lh
+  737  ./get_sra_data.sh 
+  738  ls -lh
+  739  rm SRR11412233.fastq.gz 
+  740  ls -lh
+  741  conda activate rna-seeq
+  742  conda activate rna-seq
+  743  sc Share/week4
+  744  cd Share/week4
+  745  ls
+  746  ./get_sra_data.sh 
+  747  ls
+  748  ls -lh
+  749  rm SRR11412233.fastq.gz 
+  750  ./get_sra_data.sh 
+  751  rm SRR11412233.fastq.gz 
+  752  ls
+  753  ./get_sra_data.sh 
+  754  ls -lh
+  755  conda activate rna-seq
+  756  cd Share/week4
+  757  ls
+  758  less SraRunTable.txt
+  759  conda install fastqc
+  760  conda install multiqc
+  761  ls
+  762  df -h
+  763  df -h
+  764  conda install multiqc
+  765  conda clean --all
+  766  ls
+  767  fastqc SRR11412215.fastq.gz 
+  768  mkdir fastqc
+  769  ls
+  770  mv *_fastqc* fastqc
+  771  fastqc -h
+  772  fastqc -o fastqc/ SRR11412216.fastq.gz 
+  773  mv fastqc fastqc_output
+  774  ls
+  775  multiqc fastqc_output/
+  776  fastqc -o fastqc_output *.fastq.gz
+  777  ls
+  778  ls multiqc_
+  779  ls multiqc_data/
+  780  cd Share/week4
+  781  l
+  782  nano get_sra_robust.sh
+  783  ls -1 fastqc_output/*.html | wc -l
+  784  conda activate rna-seq
+  785  zless 
+  786  zless SRR11412215.fastq.gz 
+  787  multiqc fastqc_output/
+  788  exit
+  789  conda activate rna-seq
+  790  ls
+  791  cd Share/week4
+  792  ls
+  793  ./get_sra_robust.sh 
+  794  ls
+  795  rm SRR11412215
+  796  rm -r SRR11412215
+  797  ls
+  798  cd ../
+  799  mkdir week5
+  800  ls
+  801  cd week5
+  802  wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_41/gencode.v41.transcripts.fa.gz
+  803  ls
+  804  less gencode.v41.transcripts.fa.gz 
+  805  conda install salmon
+  806  conda activate rna-seq
+  807  conda install salmon
+  808  salmon
+  809  salmon -h
+  810  conda uninstall salmon
+  811  conda remove salmon
+  812  ls
+  813  cd Share
+  814  cd Share/week5
+  815  cd Share
+  816  cd week5
+  817  ls
+  818  conda install salmon
+  819  conda update -n base -c defaults conda
+  820  salmon
+  821  ls
+  822  cd ..
+  823  ls
+  824  ..
+  825  cd ..
+  826  ls
+  827  cd Share
+  828  conda activate salmon
+  829  conda info --envs
+  830  salmon
+  831  conda activate rna-seq
+  832  salmon
+  833  ~
+  834  sudo updatedb
+  835  conda deactivate rna-seq
+  836  ~
+  837  salmon
+  838  sudo updatedb
+  839  conda activate rna-seq
+  840  locate libboost_iostreams.so.1.60.0
+  841  locate libboost_iostreams
+  842  sudo apt install plocate
+  843  locate libboost_iostreams
+  844  cd /usr/lib/x86_64-linux-gnu
+  845  sudo 1n -s libboost_iostreams.so.1.74.0 libboost_iostreams.so.1.60.0
+  846  sudo 1 n -s libboost_iostreams.so.1.74.0 libboost_iostreams.so.1.60.0
+  847  sudo  ln -s libboost_iostreams.so.1.74.0 libboost_iostreams.so.1.60.0
+  848  sudo apt-get installlibboost-all-dev
+  849  sudo apt-get install libboost-all-dev
+  850  salmon
+  851  ~
+  852  conda activate rna-seq
+  853  salmon
+  854  wget https://github.com/COMBINE-lab/salmon/releases/download/v1.9.0/salmon-1.9.0_linux_x86_64.tar.gz
+  855  sudo apt install salmon
+  856  salmon
+  857  conda activate rna-seq
+  858  salmon
+  859  conda install salmon
+  860  ls
+  861  rm salmon-1.9.0_linux_x86_64.tar.gz 
+  862  salmon
+  863  ls
+  864  ls -lh
+  865  ls
+  866  nano get_sra_robust.sh 
+  867  ls
+  868  ls -lh
+  869  less SRR1141224
+  870  less SRR11412217
+  871  ls
+  872  ls -lh
+  873  ls
+  874  ls -lh
+  875  ls
+  876  rm SRR11412238
+  877  rm -r SRR11412238
+  878  ls -lh
+  879  ls -l *.fastq.gz | wc -l
+  880  ls -lh
+  881  conda activate rna-seq
+  882  ls -lh
+  883  ls
+  884  less SraRunTable.txt 
+  885  ls
+  886  ls -lh
+  887  ls -l *.fastq.gz | wc -l
+  888  ls -lh
+  889  ls SRR11412261
+  890  ls SRR11412261.sra
+  891  ls -lh
+  892  ./week5
+  893  ../week5
+  894  ../Share
+  895  ~
+  896  cd ../Share
+  897  cd ../week5
+  898  cd ~
+  899  cd Share/week4
+  900  ls
+  901  ls -lh
+  902  cd Share
+  903  ls
+  904  ls week5
+  905  ls week4
+  906  ..
+  907  ../
+  908  cd week4
+  909  ls
+  910  nano get_sra_robust.sh 
+  911  ./ get_sra_robust.sh
+  912  conda activate rna-seq
+  913  ./ get_sra_robust.sh
+  914  cd week5
+  915  .. cd
+  916  nano get_sra_robust.sh 
+  917  less SraRunTable.txt 
+  918  ls -lh
+  919  nano get_sra_robust.sh 
+  920  ./ get_sra_robust.sh 
+  921  chmod u+x get_sra_robust.sh
+  922  ./get_sra_robust.sh 
+  923  ./get_sra_robust.sh
+  924  du -hs ./
+  925  df -h
+  926  ls -lh
+  927  df -h
+  928  du -h
+  929  du -hs ./
+  930  ls
+  931  mv .*fastq.gz ../week5
+  932  cd ../
+  933  ls
+  934  mv *.fastq.gz ../week5
+  935  mv *.fastq.gz  ../week5
+  936  conda activate rna-seq
+  937  cd Share
+  938  ls
+  939  cd week4
+  940  ls
+  941  mv *.fastq.gz ../week5
+  942  ls
+  943  du -hs ./
+  944  du -hs ../week5
+  945  ls ../week5
+  946  rm SRR*/*.sra
+  947  ls
+  948  rmdir SRR*
+  949  ls
+  950  mv SraRunTable.txt ../week5
+  951  cd ../week5
+  952  ls
+  953  ls -l *.fastq.gz | wc -l
+  954  cat SraRunTable.txt 
+  955  ls
+  956  ls -lh
+  957  ls
+  958  tail -n +2 SraRunTable.txt | cut -d ',' -f 19
+  959  tail -n +2 SraRunTable.txt | cut -d ',' -f 18
+  960  less SraRunTable.txt 
+  961  tail -n +2 SraRunTable.txt | cut -d ',' -f 14
+  962  tail -n +2 SraRunTable.txt | cut -d ',' -f 20
+  963  tail -n +2 SraRunTable.txt | cut -d ',' -f 19
+  964  tail -n +2 SraRunTable.txt | cut -d ',' -f 15
+  965  tail -n +2 SraRunTable.txt | cut -d ',' -f 1
+  966  tail -n +2 SraRunTable.txt | cut -d ',' -f 2
+  967  tail -n +2 SraRunTable.txt | cut -d ',' -f 3
+  968  tail -n +2 SraRunTable.txt | cut -d ',' -f 21
+  969  tail -n +2 SraRunTable.txt | cut -d ',' -f 17
+  970  ls
+  971  tail -n +2 SraRuntablenew.txt | cut -d ',' -f 19
+  972  tail -n +2 SraRunTable.txt | cut -d ',' -f 17
+  973  tail -n +2 SraRuntablenew.txt | cut -d ',' -f 19 | sort | uniq
+  974  tail -n +2 SraRuntablenew.txt | cut -d ',' -f 19 | sort | uniq| wc -l
+  975  tail -n +2 SraRuntablenew.txt | cut -d ',' -f 19 | sort | uniq > geo_accessions.txt
+  976  cat geo_accessions.txt 
+  977  nano run_salmon.sh
+  978  ls -lh
+  979  ls -lh run_salmon.sh 
+  980  chmod u+x run_salmon.sh 
+  981  ./run_salmon.sh 
+  982  nano run_salmon.sh 
+  983  ./run_salmon.sh 
+  984  grep GSM4432378 SraRuntablenew.txt 
+  985  grep GSM4432378 SraRuntablenew.txt | cut -d ',' -f 1
+  986  nano run_salmon.sh 
+  987  ./run_salmon.sh 
+  988  nano run_salmon.sh 
+  989  ./run_salmon.sh 
+  990  salmon quant --help-reads |  less
+  991  conda activate rna-seq
+  992  conda install salmon
+  993  cd Share/week4
+  994  ls
+  995  salmon
+  996  cd Share
+  997  cd ../Share
+  998  cd ../
+  999  salmon
+ 1000  cd ~
+ 1001  salmon
+ 1002  cd Share/week4
+ 1003  conda install salmon
+ 1004  conda remove salmon
+ 1005  conda install salmon
+ 1006  conda remove salmon
+ 1007  conda install -c bioconda salmon
+ 1008  conda uninstall salmon
+ 1009  conda deactivate rna-seq
+ 1010  conda install -c conda-forge -c bioconda salmon=1.3.0
+ 1011  cd ~
+ 1012  ls
+ 1013  ls -a
+ 1014  nano .bashrc
+ 1015  ls gencode_v33_index
+ 1016  nano run_salmon.sh 
+ 1017  ./run_salmon.sh 
+ 1018  ls
+ 1019  salmon
+ 1020  salmon index -t gencode.v41.transcripts.fa  -i gencode_v33_index --gencode
+ 1021  prefetch SRR11412236
+ 1022  conda activate rna-seq
+ 1023  prefetch SRR11412236
+ 1024  ls
+ 1025  nano get_one_file
+ 1026  nano get_sra_robust.sh 
+ 1027  nano get_one_file 
+ 1028  ./get_one_file 
+ 1029  nano get_one_file 
+ 1030  ./get_one_file 
+ 1031  nano get_sra_robust.sh 
+ 1032  nano get_one_file 
+ 1033  ./get_one_file 
+ 1034  conda activate rna-seq
+ 1035  ls
+ 1036  gunzip gencode.v41.transcripts.fa.gz 
+ 1037  ls
+ 1038  less gencode.v41.transcripts.fa 
+ 1039  salmon
+ 1040  conda deactivate rna-seq
+ 1041  conda --help
+ 1042  ls
+ 1043  ls GSM4432378
+ 1044  ls libParams
+ 1045  ls GSM4432378/libParams
+ 1046  cd ../week4
+ 1047  ls
+ 1048  nano get_sra_robust.sh 
+ 1049  prefetch SRR11412236
+ 1050  ls
+ 1051  prefetch SRR11412236
+ 1052  ls
+ 1053  prefetch SRR11412246
+ 1054  fastq-dump
+ 1055  cd Share/week5
+ 1056  cd ../week5
+ 1057  ls
+ 1058  ls -l GSM* | wc -l
+ 1059  ls -l GSM*/qaunt.sf | wc -l
+ 1060  rm dir GSM*
+ 1061  ls -lh
+ 1062  cd Share
+ 1063  ls
+ 1064  ls covid-rnaseq/
+ 1065  ls week5
+ 1066  ls -l GSM*/quant.sf | wc -l
+ 1067  salmon index -t gencode.v41.transcripts.fa  -i gencode_v33_index --gencode
+ 1068  ls
+ 1069  cd GSM4432378
+ 1070  ls
+ 1071  cd logs
+ 1072  ls
+ 1073  cd ../
+ 1074  ./run_salmon.sh 
+ 1075  ls
+ 1076  ls -l GSM*/quant.sf
+ 1077  ls -l GSM*/quant.sf | wc -l
+ 1078  cd GSM4432378
+ 1079  ls
+ 1080  cat cmd_info.json 
+ 1081  cat lib_format_counts.json 
+ 1082  less quant.sf 
+ 1083  cd ../
+ 1084  salmon
+ 1085  conda activate rna-seq
+ 1086  cd share/week5
+ 1087  cd Share/week5
+ 1088  ls
+ 1089  mkdir fastqc
+ 1090  ls
+ 1091  fastqc -o fastqc/ SRR11412215
+ 1092  fastqc -o fastqc/ SRR11412215.fastq.gz 
+ 1093  mv fastqc fastqc_output
+ 1094  ls
+ 1095  fastqc -o fastqc_output *.fastq.gz
+ 1096  ls
+ 1097  ./run_salmon.sh 
+ 1098  ls
+ 1099  ./run_salmon.sh 
+ 1100  ls
+ 1101  ls -l GSM* | wc -l
+ 1102  ls -l GSM*/quan.sf | wc -l
+ 1103  ls -l GSM*/quant.sf | wc -l
+ 1104  rm -r gencode_v33_index/
+ 1105  ls
+ 1106  conda activate rna_seq
+ 1107  conda activate rn-_seq
+ 1108  conda activate rna-seq
+ 1109  less gencode.v41.transcripts.fa 
+ 1110  ls -lh
+ 1111  cd Share/week5
+ 1112  ls
+ 1113  cd Share
+ 1114  cd ../
+ 1115  ls
+ 1116  mv week5/GSM44323
+ 1117  mv week5/GSM44323* covid-rnaseq
+ 1118  ls week5
+ 1119  mv week5/GSM4432
+ 1120  ls
+ 1121  ls covid-rnaseq/
+ 1122  cd Share
+ 1123  find . -name "*gencode*"
+ 1124  less week5/gencode.v41.transcripts.fa
+ 1125  grep '>' week5/gencode.v41.transcripts.fa | less
+ 1126  grep -P -o 'ENST\d{11}' week5/gencode.v41.transcripts.fa | less
+ 1127  grep -P -o 'ENST\d{11}' week5/gencode.v41.transcripts.fa 
+ 1128  grep -P -o 'ENST\d{11}' week5/gencode.v41.transcripts.fa > enst.txt
+ 1129  ls
+ 1130  cat enst.txt 
+ 1131  grep -P -o 'ENSG\d{11}' week5/gencode.v41.transcripts.fa
+ 1132  grep -P -o 'ENSG\d{11}' week5/gencode.v41.transcripts.fa > ensg.txt
+ 1133  head enst.txt 
+ 1134  head ensg.txt 
+ 1135  wc -l ens*
+ 1136  man paste
+ 1137  paste enst.txt  ensg.txt | head
+ 1138  paste -d ',' enst.txt  ensg.txt | head
+ 1139  paste -d ',' enst.txt  ensg.txt > covid-rnaseq/gene_map.csv
+ 1140  ls covid-rnaseq/
+ 1141  less gene_map.csv
+ 1142  less covid-rnaseq/gene_map.csv | less
+ 1143  ls
+ 1144  cd Share
+ 1145  ls
+ 1146  cd week3
+ 1147  ls
+ 1148  less get_uniport_data.sh 
+ 1149  ls
+ 1150  less tesh2.sh
+ 1151  cd Share
+ 1152  ls
+ 1153  cd week3
+ 1154  ls
+ 1155  nano test_loops.sh
+ 1156  ls
+ 1157  less get_uniport_data.sh 
+ 1158  ./ get_uniport_data.sh 
+ 1159  conda activate msa
+ 1160  conda help
+ 1161  conda --help
+ 1162  jalview muscle_output.fasta 
+ 1163  ls
+ 1164  less uniport_ids.txt
+ 1165  ls
+ 1166  apt install git
+ 1167  sudo apt install git-all
+ 1168  git
+ 1169  sudo apt install git
+ 1170  apt-get update
+ 1171  git
+ 1172  sudo apt install git
+ 1173  apt-get --fix-missing
+ 1174  sudo apt install git
+ 1175  sudo dnf install git-all
+ 1176  sudo apt-get update~
+ 1177  sudo apt-get update
+ 1178  sudo apt install git
+ 1179  git
+ 1180  nano learn_script.sh
+ 1181  ls
+ 1182  cd Share
+ 1183  mkdir myrepo_3
+ 1184  cd myrepo_3
+ 1185  git init
+ 1186  ls -a
+ 1187  touch README
+ 1188  ls
+ 1189  git add README
+ 1190  git status
+ 1191  git config --global --add safe.directory /home/learn/Share/myrepo_3
+ 1192  git status
+ 1193  ls
+ 1194  touch ldltest/
+ 1195  touch ldltes
+ 1196  cd ldltest
+ 1197  ls
+ 1198  cd ldltes
+ 1199  git status
+ 1200  git add ldltes
+ 1201  git status
+ 1202  git commit -m "my first commit"
+ 1203  git commit -m "second commit"
+ 1204  git status
+ 1205  rm ldltes 
+ 1206  git add README 
+ 1207  git status README 
+ 1208  git commit -m "intial commit"
+ 1209  git status
+ 1210  echo "Copyright of Deathwings" > README
+ 1211  git status
+ 1212  git commit -a -m "second commit"
+ 1213  git status
+ 1214  echo "some text" > README 
+ 1215  git status
+ 1216  git commit -a -m "changed README"
+ 1217  git status
+ 1218  echo "This is the README file for a test project" >> README
+ 1219  git diff
+ 1220  echo "some more text has beem added" >> README 
+ 1221  git status
+ 1222  git diff
+ 1223  git commit -a -m "I am okay with this change"
+ 1224  git diff
+ 1225  git log
+ 1226  echo "hello orld" > README 
+ 1227  git diff
+ 1228  git log
+ 1229  echo "destructive change" > README 
+ 1230  cat README 
+ 1231  git diff
+ 1232  git commit -a -m "destruction"
+ 1233  git log
+ 1234  git reset --hard 82f9cc20460da8d1902935e15e75b65b866c2cd3
+ 1235  cat README 
+ 1236  git log
+ 1237  git remote add origin git@github.com:notabiologist/Learn_R.git
+ 1238  git push orgin master
+ 1239  git push origin master
+ 1240  ls -a
+ 1241  git status
+ 1242  nano
+ 1243  git status
+ 1244  git add example_script 
+ 1245  git commit -a -m "added example script"
+ 1246  git status
+ 1247  git push origin master
+ 1248  cd
+ 1249  ls
+ 1250  mkdir Code/
+ 1251  ls
+ 1252  cd Code/
+ 1253  ls
+ 1254  git config --global user.name "notabiologist"
+ 1255  git config --global user.email "dephan1212@gmail.com"
+ 1256  git config --global color.ui true
+ 1257  git config --global core.editor "nano"
+ 1258  ssh-keygen -t rsa
+ 1259  ls ~/.ssh
+ 1260  cat  ~/.ssh/id_rsa.pub 
+ 1261  git push orgin master
+ 1262  git clone git@github.com:sjcockell/git-tutorial.git
+ 1263  ls
+ 1264  cd git-tutorial/
+ 1265  ls -a
+ 1266  git push
+ 1267  cd Code/
+ 1268  cd ./
+ 1269  cd
+ 1270  cd Code
+ 1271  git rm git-tutorial/
+ 1272  cd Code
+ 1273  ls
+ 1274  git rm git-tutorial/
+ 1275  rm git-tutorial/
+ 1276  Touch README
+ 1277  touch README
+ 1278  git init README
+ 1279  ls
+ 1280  echo " this is some code" > README 
+ 1281  git commit -a -m README
+ 1282  git log
+ 1283  git config --global user.name "notabiologist"
+ 1284  git config --global user.email "dephan1212@gmail.com
+"
+ 1285  git init
+ 1286  touch README
+ 1287  git add README
+ 1288  git status
+ 1289  ls -a
+ 1290  echo "this is some text" > README 
+ 1291  git commit -a -m README 
+ 1292  echo " the new text" > README 
+ 1293  git status
+ 1294  git commit -a -m "this is new change"
+ 1295  git diff
+ 1296  git log
+ 1297  echo " copy right of dehan" > README 
+ 1298  git status
+ 1299  git diff
+ 1300  git commit -a -m "second commit message"
+ 1301  git log
+ 1302  git push origin master
+ 1303  echo "# Learn_R" >> README.md
+ 1304  git init
+ 1305  ls
+ 1306  git rm README.md 
+ 1307  git remote add origin https://github.com/notabiologist/Learn_R.git
+ 1308  git branch -M main
+ 1309  git push -u origin main
+ 1310  ssh-keygen -t rsa
+ 1311  ls ~/.ssh
+ 1312  cat  ~/.ssh/id_rsa.pub
+ 1313  git branch -M main
+ 1314  git push -u origin main
+ 1315  git clone git@github.com:notabiologist/Learn_R.git
+ 1316  touch examplescript.sh
+ 1317  nano examplescript.sh 
+ 1318  git commit -a -m "first commit"
+ 1319  git push origin main
+ 1320  ls
+ 1321  git cd Learn_R/
+ 1322  cd Learn_R/
+ 1323  ls
+ 1324  ls -a
+ 1325  touch index.html
+ 1326  git add index.html 
+ 1327  git status
+ 1328  git commit -m -a "new file made"
+ 1329  git commit -m "added index.html"
+ 1330  ssh-keygen -t rsa -b 4096 -C "dephan1212@gmail.com"
+ 1331  ls -a
+ 1332  cat .ssh/id_rsa.pub
+ 1333  ls ~/.ssh
+ 1334  cat  ~/.ssh/id_rsa.pub
+ 1335  eval "(ssh-agent -s)'
+'
+ 1336  eval "(ssh-agent -s)"
+ 1337  ssh-add ~/.ssh/id_rsa
+ 1338  git push origin main
+ 1339  nano command_line_code
+ 1340  nano command_line_code.txt 
+ 1341  git commit -a -m "added command line code"
+ 1342  git push origin main
+ 1343  git commit -a -m command_line_code.txt 
+ 1344  git staus
+ 1345  git push origin main
+ 1346  git push origin master
+ 1347  git add .
+ 1348  git push origin master
+ 1349  git add command_line_code.txt 
+ 1350  git status
+ 1351  git commit -m "command line code"
+ 1352  git push origin master
+ 1353  git mv command_line_code.txt 
+ 1354  git rm command_line_code.txt 
+ 1355  ls
+ 1356  echo "some text" > README.md 
+ 1357  git commit -a -m "second commit added txxt"
+ 1358  git push origin master
+ 1359  git branch -b
+ 1360  git push origin main
+ 1361  history
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ nano bash_history
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ rm bash_history 
+(base) learn@learn-VirtualBox:~/Code/Learn_R$ 
+
